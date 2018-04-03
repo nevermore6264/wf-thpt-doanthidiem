@@ -1,0 +1,164 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	margin:0 auto;
+	width:960px;
+	font-family:"Times New Roman", Times, serif;
+}
+header{
+	position:relative;
+}
+.top-menu{
+	position:absolute;
+	top:30px;
+	right:0px;
+}
+.search{
+	height:30px;
+	line-height:30px;
+	border-radius:15px;
+}
+.top-menu a{
+	text-decoration:none;
+	padding:20px;
+	text-transform:uppercase;
+	color:#0088cc;
+}
+.top-menu a:hover{
+	color:#666;	
+}
+nav{
+	z-index:1000;
+}
+nav>ul>li{
+	display:inline-block;
+	position:relative;
+	}
+	
+nav>ul>li>a{
+	display:block;
+	text-decoration:none;
+	padding:0 10px;
+	line-height:40px;
+	color:#0088cc;
+	font-weight:bold;
+	}
+nav>ul>li>a:hover{
+	background-color:#0088cc;
+	color:#FFF;
+	border-radius:10px;
+}
+nav>ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	border-radius:10px;
+	background-color:#FFF;
+	text-align:center;
+	} 		
+nav ul ul{
+	position:absolute;
+	display:none;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	width:250px;
+	border-radius:10px;
+	background-color:#0088cc;
+	}
+nav ul ul a{
+	display:block;
+	line-height:30px;
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	padding:10px 10px;
+	
+}  	
+nav > ul > li:hover>ul{
+	display:block;
+}	
+nav ul ul a:hover{
+	background-color:#0099e6;
+	border-radius:10px;
+}
+article{
+	width:70%;
+	float:left;
+
+}
+article td a{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:17px;
+	text-align:justify;
+}
+article a{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:17px;
+	text-align:justify;
+}
+
+article a:hover{
+	text-decoration:underline;
+}
+article td{
+	padding:10px;
+	text-align:justify;
+}
+aside{
+	width:30%;
+	float:right;
+}
+aside ul li a{
+	text-decoration:none;
+	color:#0088cc;
+}
+aside ul li a:hover{
+	text-decoration:underline;
+}
+aside ul li{
+	padding:5px;
+	text-align:justify;
+}
+footer{
+	background-color:#0c0c0c;
+	color:#999;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+}
+.diachi{
+	background-color:#0088cc;
+	color:#FFF;
+	padding:20px 0px 20px 70px;
+	
+}
+.bot-menu{
+	background-color:#e0e0e1;
+	clear:both;
+}
+.bot-menu th{
+	padding:0px 10px;
+	font-size:18px;
+}
+.bot-menu th a{
+	text-decoration:none;
+	color:#717171;
+}
+.bot-menu th a:hover{
+	text-decoration:underline;
+}
+.bot-menu td{
+	padding:7px 35px;
+}
+.bot-menu td a{
+	text-decoration:none;
+	color:#717171;
+}
+.bot-menu td a:hover{
+	text-decoration:underline;
+}
